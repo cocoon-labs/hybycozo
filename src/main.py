@@ -39,6 +39,8 @@ if __name__ == "__main__":
     # raw_input("Ready to test hexagons...")
     # test_faces(trunc_oct.hexagons)
 
-    test_face_positions(trunc_oct, 5, 'hexagons')
+    # test_face_positions(trunc_oct, 5, 'hexagons')
+    trunc_oct.randomize()
+    trunc_oct.run()
     
     # trunc_oct.gradient_cycle('orpal')

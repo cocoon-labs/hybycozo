@@ -2,7 +2,7 @@
 
 class Vertex(object):
     
-    def __init__(self, idx, neighbors=set()):
+    def __init__(self, idx, neighbors=[]):
         self.idx = idx
         self.neighbors = neighbors
         self.red = 0
